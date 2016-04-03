@@ -1,7 +1,3 @@
-title: Objective-C 中的 load 和 initialize
-date: 2016-03-15 02:11:34
-tags: Objective-C
----
 
 水叔在技术分享的周会上提到了这两个方法 `+ (void)load;` 和 `+ (void)initialize;` 的区别。还是对一些继承或者 `category` 调用先后顺序并不是很清楚，所以搜罗了一些博文整理出这篇文章。
 
@@ -48,6 +44,4 @@ tags: Objective-C
 <div style="text-align: center">
 <img src="https://raw.githubusercontent.com/broccolii/broccolii.github.io/master/images/Objective-C_initialize_load/startupMain.png"/>
 </div>
-
-
 
